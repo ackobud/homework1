@@ -1,9 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import Weather from "./Components/Weather";
 
 function App() {
   return (
     <>
-      <p>Hello world</p>
+      <Weather />
     </>
   );
 }
